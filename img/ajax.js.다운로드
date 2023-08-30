@@ -1,0 +1,89 @@
+var ajax;
+
+function Ajax() {
+	this.XmlHttpReq = null;
+	this.type = null;
+	this.url = null;
+	this.param = null;
+	this.returnExec = null;
+	this.iswait = false;
+
+	this.encodeParam = function(value) {
+		value = escape(value);
+		value = value.replace(/\+/g, '%2B');
+		return value;
+	}
+
+	this.getXmlHttpRequest = function() {
+		if (window.XMLHttpRequest) {
+			// Create XMLHttpRequest object in non-Microsoft browsers
+			this.XmlHttpReq = new XMLHttpRequest();
+		} else if (window.ActiveXObject) {
+			// Create XMLHttpRequest via MS ActiveX
+			try {
+				// Try to create XMLHttpRequest in later versions
+				// of Internet Explorer
+				this.XmlHttpReq = new ActiveXObject("Msxml2.XMLHTTP");
+			} catch (e1) {
+				// Failed to create required ActiveXObject
+				try {
+					// Try version supported by older versions
+					// of Internet Explorer
+					this.XmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (e2) {
+					// Unable to create an XMLHttpRequest with ActiveX
+				}
+			}
+		}
+	}
+
+	this.execute = function(type, url, param, returnExec) {
+		if (this.iswait){
+			setTimeout("ajax.execute('"+type+"', '"+url+"', '"+param+"', '"+returnExec+"');",200);
+			return;
+		}
+
+		url += ((url.indexOf('?') >= 0) ? '&' : '?') + "rnd="+Math.random();
+
+		this.type = type;
+		this.url = url;
+		this.param = param;
+		this.returnExec = returnExec;
+
+		this.getXmlHttpRequest();
+		this.iswait = true;
+
+		try {
+			return this._execute();
+		}
+		catch (e){}
+	}
+
+	this._execute = function() {
+		var result = null;
+
+		if (this.type == "GET") {
+			this.XmlHttpReq.open("GET", this.url, true);
+		}
+		else if (this.type == "POST") {
+			this.XmlHttpReq.open("POST", this.url, true);
+			this.XmlHttpReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		}
+
+		this.XmlHttpReq.onreadystatechange = function() {
+			// readyState=4 and status=200ÀÏ °æ¿ì
+			if (ajax.XmlHttpReq.readyState == 4 && ajax.XmlHttpReq.status == 200) {
+				result = ajax.XmlHttpReq.responseText;
+				if (ajax.returnExec) eval(ajax.returnExec+"(result);");
+				ajax.iswait = false;
+			}
+		}
+
+		if(this.type == 'GET') this.XmlHttpReq.send(null);
+		else if(this.type == 'POST') this.XmlHttpReq.send(this.param);
+	}
+}
+
+function defineAjax() {
+	if (!ajax) ajax = new Ajax();
+}

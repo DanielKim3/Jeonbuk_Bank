@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>전북은행</title>
+    <meta name="Title" content="전북은행" />
+    <meta name="Keywords" content="JBBank, 전북, 전북은행" />
+    <meta name="Author" content="woojin" />
+    <meta name="Publisher" content="woojin" />
+    <meta
+      name="Description"
+      content="전북은행 메인 페이지에 오신것을 환영합니다."
+    />
+    <link rel="stylesheet" href="JBcss/reset.css" />
+    <link rel="stylesheet" href="JBcss/enterprise.css" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <div class="head-top">
+          <div class="container">
+            <div class="headTop-left">
+              <a href="main.html" class="logoBox"></a>
+              <a href="login.html"
+                ><button type="button" class="btn-login">로그인</button></a
+              >
+              <a href="#"
+                ><button type="button" class="btnCenter">인증센터</button></a
+              >
+            </div>
+            <div class="headTop-right">
+              <ul class="top-link">
+                <li><a href="personal.html">개인</a></li>
+                <li><a href="enterprise.html">기업</a></li>
+                <li><a href="card.html">카드</a></li>
+                <li><a href="smartBank.html">스마트금융</a></li>
+                <li><a href="#">금융상품</a></li>
+              </ul>
+              <a href="#" class="buttonSearch"></a>
+              <a href="#" class="buttonMenu"></a>
+            </div>
+          </div>
+        </div>
+        <div class="head_gnb">
+          <div class="container">
+            <ul id="nav" class="cf">
+              <li>
+                <a href="#">기업뱅킹</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">My 뱅킹</a></dt>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">승인/결재관리</a></dt>
+                        <dd><a href="#">내가 기안한업무</a></dd>
+                        <dd><a href="#">내가 결재할업무</a></dd>
+                        <dd><a href="#">내가 결재한업무</a></dd>
+                        <dd><a href="#">내가 포함된업무</a></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">조회</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">계좌조회</a></dt>
+                        <dd><a href="#">예금계좌조회</a></dd>
+                        <dd><a href="#">예금거래내역조회</a></dd>
+                        <dd><a href="#">휴면예금조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">수표/어음조회</a></dt>
+                        <dd><a href="#">자기앞수표조회</a></dd>
+                        <dd><a href="#">당좌수표/어음조회</a></dd>
+                        <dd><a href="#">당좌수표/어음번호별조회</a></dd>
+                        <dd><a href="#">보관어음조회</a></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">이체</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">이체</a></dt>
+                        <dd><a href="#">즉시이체</a></dd>
+                        <dd><a href="#">다계좌이체</a></dd>
+                        <dd><a href="#">예약이체</a></dd>
+                        <dd><a href="#">CMS이체</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">이체결과조회</a></dt>
+                        <dd><a href="#">이체결과조회</a></dd>
+                        <dd><a href="#">과거이체결과조회</a></dd>
+                        <dd><a href="#">예약이체결과조회</a></dd>
+                        <dd><a href="#">CMS이체결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">지연이체</a></dt>
+                        <dd><a href="#">서비스 신청/변경/해지</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">예약/지연이체 조회/취소</a></dt>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">특정금전신탁(MMT)</a></dt>
+                        <dd><a href="#">특정금전신탁(MMT) 입금</a></dd>
+                        <dd><a href="#">특정금전신탁(MMT) 출금</a></dd>
+                        <dd><a href="#">MMT평가금액조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">계좌간 자동이체</a></dt>
+                        <dd><a href="#">자동이체등록</a></dd>
+                        <dd><a href="#">등록내역조회/변경/해지</a></dd>
+                        <dd><a href="#">자동이체결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">펀드이체</a></dt>
+                        <dd><a href="#">펀드계좌통합관리</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">자동이체츌금내역</a></dt>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="explode2">
+                <a href="#">예금</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">예금신규</a></dt>
+                        <dd><a href="#">스마트정기예금</a></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="explode5">
+                <a href="#">외환</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">환율</a></dt>
+                        <dd><a href="#">환율조회</a></dd>
+                        <dd><a href="#">환가료율조회</a></dd>
+                        <dd><a href="#">일중환율변동추이</a></dd>
+                        <dd><a href="#">환율그래프</a></dd>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">외화예금</a></dt>
+                        <dd><a href="#">외화예금안내</a></dd>
+                        <dd><a href="#">외화예금입금</a></dd>
+                        <dd><a href="#">외화예금출금</a></dd>
+                        <dd><a href="#">외화예금조회</a></dd>
+                        <dd><a href="#">외화예금거래내역조회</a></dd>
+                        <dd><a href="#">외화예금해지예상금액조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">국내외화이체</a></dt>
+                        <dd><a href="#">전북은행으로 이체</a></dd>
+                        <dd><a href="#">다른은행으로 이체</a></dd>
+                        <dd><a href="#">타행이체내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">해외송금</a></dt>
+                        <dd><a href="#">해외송금신청(개인사업자)</a></dd>
+                        <dd><a href="#">해외송금내역조회</a></dd>
+                        <dd><a href="#">JB기업인터넷해외송금신청</a></dd>
+                        <dd><a href="#">JB기업전용해외송금내역조회</a></dd>
+                        <dd><a href="#">받은송금내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">수입</a></dt>
+                        <dd><a href="#">수입신용장안내</a></dd>
+                        <dd><a href="#">신용장개설내역조회</a></dd>
+                        <dd><a href="#">개설잔액조회</a></dd>
+                        <dd><a href="#">L/G발급내역조회</a></dd>
+                        <dd><a href="#">선적서류 접수내역조회</a></dd>
+                        <dd><a href="#">수입어음만기일 조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">수출</a></dt>
+                        <dd><a href="#">수출안내</a></dd>
+                        <dd><a href="#">수출환어음매입/추심내역조회</a></dd>
+                        <dd><a href="#">수출환어음매입/추심입금내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">내국신용장</a></dt>
+                        <dd><a href="#">내국시신용장안내</a></dd>
+                        <dd><a href="#">개설내역조회</a></dd>
+                        <dd><a href="#">매입내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">지정환율 통지서비스</a></dt>
+                        <dd><a href="#">안내</a></dd>
+                        <dd><a href="#">신청</a></dd>
+                        <dd><a href="#">조회/변경/취소</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">환율계산기</a></dt>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">대출</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">대출계좌조회</a></dt>
+                        <dd><a href="#">대출계좌조회</a></dd>
+                        <dd><a href="#">대출거래내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">대출이자(원리금) 납부</a></dt>
+                        <dd><a href="#">이제/원리금 조회</a></dd>
+                        <dd><a href="#">이자/원리금 납부</a></dd>
+                        <dd><a href="#">납부결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">대출상환</a></dt>
+                        <dd><a href="#">상환예정금액 조회</a></dd>
+                        <dd><a href="#">상환</a></dd>
+                        <dd><a href="#">상환결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">대출자동이체</a></dt>
+                        <dd><a href="#">자동이체설정</a></dd>
+                        <dd><a href="#">자동이체설정내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">대출계산기</a></dt>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="explode1">
+                <a href="#">세금/공과금</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">공과금 자동이체</a></dt>
+                        <dd><a href="#">지로자동이체등록</a></dd>
+                        <dd><a href="#">지로자동이체조회</a></dd>
+                        <dd><a href="#">4대 사회보험료</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">지로</a></dt>
+                        <dd><a href="#">지로즉시납부</a></dd>
+                        <dd><a href="#">지로납부내역조회/취소</a></dd>
+                        <dd><a href="#">자주쓰는 지로번호관리</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">생활요금</a></dt>
+                        <dd><a href="#">KT통신요금납부</a></dd>
+                        <dd><a href="#">전기요금납부</a></dd>
+                        <dd><a href="#">납부내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">국세</a></dt>
+                        <dd><a href="#">국세 조회납부</a></dd>
+                        <dd><a href="#">국세 연대납부</a></dd>
+                        <dd><a href="#">국세 자진납부</a></dd>
+                        <dd><a href="#">납부내역조회</a></dd>
+                        <dd><a href="#">연대납부내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">지방세</a></dt>
+                        <dd><a href="#">통합지방세</a></dd>
+                        <dd><a href="#">환경개선부담금</a></dd>
+                        <dd><a href="#">상하수도요금</a></dd>
+                        <dd><a href="#">세외수입</a></dd>
+                        <dd><a href="#">기타 세입금</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">연금/보험료</a></dt>
+                        <dd><a href="#">통합징수보험료</a></dd>
+                        <dd><a href="#">국민연금 반납/추납보험료</a></dd>
+                        <dd><a href="#">고용보험료(연납/분기납)</a></dd>
+                        <dd><a href="#">산재보험료(연납/분기납)</a></dd>
+                        <dd><a href="#">고용/산재 자진납부</a></dd>
+                        <dd><a href="#">납부내역조회/취소</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">범칙금/벌과금</a></dt>
+                        <dd><a href="#">경찰청범칙금납부</a></dd>
+                        <dd><a href="#">법무부국고금납부</a></dd>
+                        <dd><a href="#">경찰청범칙금납부내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">기금/국고</a></dt>
+                        <dd><a href="#">기금/기타국고납부</a></dd>
+                        <dd><a href="#">항만수수료납부</a></dd>
+                        <dd><a href="#">특허수수료납부</a></dd>
+                        <dd><a href="#">납부내역조회</a></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="explode3">
+                <a href="#">B2B전자결제</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">B2B구매자금대출</a></dt>
+                        <dd><a href="#">B2B구매자금대출안내</a></dd>
+                        <dd><a href="#">구매기업</a></dd>
+                        <dd><a href="#">판매기업</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">기업구매자금대출</a></dt>
+                        <dd><a href="#">기업구매자금대출안내</a></dd>
+                        <dd><a href="#">구매기업</a></dd>
+                        <dd><a href="#">판매기업</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">외상매출채권담보대출</a></dt>
+                        <dd><a href="#">외상매출채권담보대출안내</a></dd>
+                        <dd><a href="#">구매기업</a></dd>
+                        <dd><a href="#">판매기업</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">전자채권</a></dt>
+                        <dd><a href="#">전자채권안내</a></dd>
+                        <dd><a href="#">구매기업</a></dd>
+                        <dd><a href="#">판매기업</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">기업회전대출</a></dt>
+                        <dd><a href="#">대출약정조회</a></dd>
+                        <dd><a href="#">대출신청</a></dd>
+                        <dd><a href="#">신청내역조회/취소</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">부가세매입자납부</a></dt>
+                        <dd><a href="#">매매대금결제</a></dd>
+                        <dd><a href="#">거래조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">계좌전환/확인서발급</a></dt>
+                        <dd></dd>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">전자어음</a></dt>
+                        <dd><a href="#">전자어음안내</a></dd>
+                        <dd><a href="#">이용약정조회</a></dd>
+                        <dd><a href="#">교부신청/취소</a></dd>
+                        <dd><a href="#">전자어음거래</a></dd>
+                        <dd><a href="#">전자어음조회</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">기업구매카드</a></dt>
+                        <dd><a href="#">기업구매카드안내</a></dd>
+                        <dd><a href="#">구매기업(회원)</a></dd>
+                        <dd><a href="#">판매기업(가맹점)</a></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="explode5">
+                <a href="#">자금관리서비스</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">대량이체</a></dt>
+                        <dd><a href="#">대량이체 파일등록</a></dd>
+                        <dd><a href="#">대량이체 처리결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">특대량집금</a></dt>
+                        <dd><a href="#">대량집금안내</a></dd>
+                        <dd><a href="#">약정정보조회</a></dd>
+                        <dd><a href="#">집금파일등록</a></dd>
+                        <dd><a href="#">집금처리결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">급여이체</a></dt>
+                        <dd><a href="#">약정정보조회</a></dd>
+                        <dd><a href="#">급여이체 파일등록</a></dd>
+                        <dd><a href="#">급여이체 처리결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">보관어음관리</a></dt>
+                        <dd><a href="#">보관어음조회</a></dd>
+                        <dd><a href="#">위탁기간별조회</a></dd>
+                        <dd><a href="#">만기일자별조회</a></dd>
+                        <dd><a href="#">지지급어음조회/등록</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">펌뱅킹</a></dt>
+                        <dd><a href="#">약정정보조회</a></dd>
+                        <dd><a href="#">펌뱅킹 파일등록</a></dd>
+                        <dd><a href="#">펌뱅킹 처리결과조회</a></dd>
+                        <dd><a href="#">펌뱅킹 파일수신</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">가상계좌</a></dt>
+                        <dd><a href="#">가상계좌안내</a></dd>
+                        <dd><a href="#">입금내역조회</a></dd>
+                        <dd><a href="#">건별 수납정보조회/관리</a></dd>
+                        <dd><a href="#">수납파일등록</a></dd>
+                        <dd><a href="#">수납파일처리결과조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">자금스케줄관리</a></dt>
+                        <dd><a href="#">자금스케줄관리</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">주류가맹점</a></dt>
+                        <dd><a href="#">주류판매내역조회(건별)</a></dd>
+                        <dd><a href="#">주류판매내역조회(일자별)</a></dd>
+                        <dd><a href="#">주류판매내역조회(소매상별)</a></dd>
+                        <dd><a href="#">주류가맹점 사용등록</a></dd>
+                        <dd><a href="#">주류가맹점 조회/삭제</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">오락서비스</a></dt>
+                        <dd><a href="#">오락서비스 안내</a></dd>
+                        <dd><a href="#">오락서비스 신규</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">대학교등록금</a></dt>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="explode6">
+                <a href="#">뱅킹관리</a>
+                <div class="width100">
+                  <ul>
+                    <li>
+                      <dl>
+                        <dt><a href="#">사고신고</a></dt>
+                        <dd><a href="#">통장/인감</a></dd>
+                        <dd><a href="#">신용/체크카드</a></dd>
+                        <dd><a href="#">현금/IC현금/직불카드</a></dd>
+                        <dd><a href="#">스마트폰 뱅킹</a></dd>
+                        <dd><a href="#">보안매체</a></dd>
+                        <dd><a href="#">자기앞수표</a></dd>
+                        <dd><a href="#">사고신고내역조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">사용자관리</a></dt>
+                        <dd><a href="#">고객정보변경</a></dd>
+                        <dd><a href="#">사용자 비밀번호 등록/재등록</a></dd>
+                        <dd><a href="#">사용자비밀번호변경</a></dd>
+                        <dd><a href="#">장기 미사용자 이용등록</a></dd>
+                        <dd><a href="#">이체한도 감액</a></dd>
+                        <dd><a href="#">OTP보정</a></dd>
+                        <dd><a href="#">OTP 이용등록</a></dd>
+                        <dd><a href="#">OTP타기관자동등록</a></dd>
+                        <dd><a href="#">본인정보 이용제공현황 조회</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">계좌관리</a></dt>
+                        <dd><a href="#">자주쓰는 입금계좌관리</a></dd>
+                        <dd><a href="#">출금계좌관리</a></dd>
+                        <dd><a href="#">계좌명칭관리</a></dd>
+                        <dd><a href="#">계좌정렬방식 변경</a></dd>
+                        <dd><a href="#">예금계좌비밀번호변경</a></dd>
+                        <dd><a href="#">CD/ATM 통장거래관리</a></dd>
+                        <dd><a href="#">편리한 계좌번호 서비스</a></dd>
+                        <dd><a href="#">입금계좌등록내역조회</a></dd>
+                        <dd><a href="#">바로바로서비스 계좌관리</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">SMS통지서비스</a></dt>
+                        <dd><a href="#">SMS통지서비스 안내</a></dd>
+                        <dd><a href="#">SMS통지서비스 신청</a></dd>
+                        <dd><a href="#">SMS통지서비스 변경/해지</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">증명서 발급 서비스</a></dt>
+                        <dd><a href="#">부채잔액증명서 발급</a></dd>
+                        <dd><a href="#">이자상환증명서 발급</a></dd>
+                        <dd><a href="#">금융거래확인서 발급</a></dd>
+                        <dd><a href="#">대출완제증명서 발급</a></dd>
+                        <dd><a href="#">예금잔액증명서 발급</a></dd>
+                        <dd><a href="#">연말정산증명서 발급</a></dd>
+                        <dd><a href="#">원천징수영수증 발급</a></dd>
+                        <dd><a href="#">RP거래증권 내역서</a></dd>
+                        <dd><a href="#">통장사본 출력 서비스</a></dd>
+                        <dd><a href="#">통계약서 발급</a></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">인터넷뱅킹 해지</a></dt>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">장기미사용조회 이용등록</a></dt>
+                        <dd></dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt><a href="#">전자금융사기 예방서비스</a></dt>
+                        <dd><a href="#">서비스 안내</a></dd>
+                        <dd><a href="#">서비스 조회/변경/해지</a></dd>
+                        <dd><a href="#">해외IP차단</a></dd>
+                      </dl>
+                    </li>
+                    <li class="both">
+                      <dl>
+                        <dt><a href="#">피싱방지 개인화이미지</a></dt>
+                        <dd><a href="#">서비스안내</a></dd>
+                        <dd><a href="#">서비스관리</a></dd>
+                      </dl>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="banner">
+        <div class="main-banner">
+          <div class="containter">
+            <img src="img/sub2-main-banner.png" alt="main baner" />
+            <span class="banner-txt">
+              <a href="#">신용과 파트너쉽으로<br />함께 성장합니다.</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div id="contents">
+        <div class="content1">
+          <div class="container">
+            <ul class="fast-menu">
+              <li id="quick-tab01">
+                <span><img src="img/content1_img1.png" alt="" /></span>
+                <a href="#">전계좌조회</a>
+              </li>
+              <li id="quick-tab02">
+                <span><img src="img/content1_img2.png" alt="" /></span>
+                <a href="#">즉시이체</a>
+              </li>
+              <li id="quick-tab03">
+                <span><img src="img/sub2_icon_line03.png" alt="" /></span>
+                <a href="#">대량이체</a>
+              </li>
+              <li id="quick-tab04">
+                <span><img src="img/sub2_icon_line04.png" alt="" /></span>
+                <a href="#">승인/결재</a>
+              </li>
+              <li id="quick-tab05">
+                <span><img src="img/sub2_icon_line05.png" alt="" /></span>
+                <a href="#">환율조회</a>
+              </li>
+              <li id="quick-tab06">
+                <span><img src="img/sub2_icon_line06.png" alt="" /></span>
+                <a href="#">해외송금</a>
+              </li>
+            </ul>
+            <div class="box2">
+              <div class="article-box1">
+                <ul>
+                  <li class="slide-img1">
+                    <div class="new-text1">
+                      <span class="article-txt">기업 스마트뱅킹</span>
+                      <span class="article-text"
+                        ><br />스마트폰에서도 승인/결재 등 기업서비스를
+                        이용하세요</span
+                      >
+                      <a href="#">자세히보기</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="article-box2">
+                <ul>
+                  <li class="slide-img2">
+                    <div class="new-text2">
+                      <div>
+                        <span class="article-text2">i &#45; 브랜치</span>
+                        <span class="article-text3"
+                          >이제 인터넷에서 기업맞춤은행을<br />직접
+                          만나보세요</span
+                        >
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="box3">
+              <div class="article-box3">
+                <span class="finance-product">B2B 전자결제</span>
+                <ul>
+                  <li class="icon-menu">
+                    <a href="#">
+                      <span class="icon-circle1"></span>
+                      <span class="icon-image1"></span>
+                      <span class="icon-text1">구매자금대출</span>
+                    </a>
+                  </li>
+                  <li class="icon-menu">
+                    <a href="#">
+                      <span class="icon-circle2"></span>
+                      <span class="icon-image2"></span>
+                      <span class="icon-text2">전자어음</span>
+                    </a>
+                  </li>
+                  <li class="icon-menu">
+                    <a href="#">
+                      <span class="icon-circle3"></span>
+                      <span class="icon-image3"></span>
+                      <span class="icon-text3">기업구매카드</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="box-bar"></div>
+              <div class="article-box4">
+                <span class="quick-service">사고신고</span>
+                <ul>
+                  <li class="icon-menu">
+                    <span class="icon-circle4"></span>
+                    <span class="icon-image4"></span>
+                    <span class="icon-text4">펌뱅킹</span>
+                  </li>
+                  <li class="icon-menu">
+                    <span class="icon-circle5"></span>
+                    <span class="icon-image5"></span>
+                    <span class="icon-text5">가상계좌</span>
+                  </li>
+                  <li class="icon-menu">
+                    <span class="icon-circle6"></span>
+                    <span class="icon-image6"></span>
+                    <span class="icon-text6">대학등록금</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content2">
+          <div class="container">
+            <div class="advertise-box">
+              <ul>
+                <li class="advertise-img">
+                  <div class="advertise-text">
+                    <div>
+                      <span class="advertise-text1">JB 비지니스클럽</span>
+                      <span class="advertise-text2"
+                        >지역사랑 정신의 실천을 통해 지역경제발전에 선도적인<br />역량을
+                        수행하는 21세기 오피니언 리더입니다.</span
+                      >
+                      <a href="#">자세히보기</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="service-box">
+              <span class="service-text">기업서비스</span>
+              <ul class="service-menu">
+                <li><a href="#">대출계좌조회</a></li>
+                <li><a href="#">지정환율통지 신청</a></li>
+                <li><a href="#">보관어음조회</a></li>
+                <li><a href="#">자금스케줄 관리</a></li>
+                <li><a href="#">주류가맹점 사용등록</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="content03">
+          <div class="container">
+            <div class="box4">
+              <span class="box4_info">인터넷뱅킹을 처음 이용하시나요?</span>
+              <ul class="icon_link">
+                <li>
+                  <a href="#">
+                    <span class="icon_circle1"></span>
+                    <span class="icon_image1"></span>
+                    <span class="text1">첫 방문고객을<br />위한안내</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="icon_circle2"></span>
+                    <span class="icon_image2"></span>
+                    <span class="text2">인증서<br />발급</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="icon_circle3"></span>
+                    <span class="icon_image3"></span>
+                    <span class="text3">자주하는 질문<br />FAQ</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="box5">
+              <span class="box5_info">이용안내</span>
+              <ul class="box5Info">
+                <li><a href="#">이용시간 안내</a></li>
+                <li><a href="#">수수료 안내</a></li>
+                <li><a href="#">금리 안내</a></li>
+                <li><a href="#">금융계산기</a></li>
+              </ul>
+            </div>
+            <div class="box6">
+              <span class="box6_info">보안센터</span>
+              <ul class="box6Info">
+                <li><a href="#">금융거래 유의사항</a></li>
+                <li><a href="#">개인정보보호</a></li>
+                <li><a href="#">보안프로그램 통합설치</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="contianer">
+          <div class="footer_box">
+            <div class="image-top"></div>
+            <div>
+              <ul class="link-footer">
+                <li><a href="#">고객정보취급방침</a></li>
+                <li>
+                  <a href="#">개인정보처리방침</a>
+                  <span class="lineBar"></span>
+                </li>
+                <li>
+                  <a href="#">신용정보활용체제</a>
+                  <span class="lineBar"></span>
+                </li>
+                <li>
+                  <a href="#">전자민원접수</a>
+                  <span class="lineBar"></span>
+                </li>
+                <li>
+                  <a href="#">보호금융상품등록부</a>
+                  <span class="lineBar"></span>
+                </li>
+                <li>
+                  <a href="#">상품공시실</a>
+                  <span class="lineBar"></span>
+                </li>
+                <li>
+                  <a href="#">보안센터</a>
+                  <span class="lineBar"></span>
+                </li>
+                <li>
+                  <a href="#">고객센터</a>
+                  <span class="lineBar"></span>
+                </li>
+                <li><a href="#">은행센터</a></li>
+              </ul>
+            </div>
+            <br />
+            <br />
+            <span>고객센터</span>
+            <span class="number1">1588-4477</span>
+            <span>비대면 신용대출</span>
+            <span class="number2">1522-1704</span>
+            <span class="capital"
+              >COPYRIGHTS JEONBUK BANK, All RIGHTS RESERVED.</span
+            >
+            <div>
+              <ul class="sns_link">
+                <li class="sns1">
+                  <a href="#"><img src="img/facebook.png" alt="facebook" /></a>
+                </li>
+                <li class="sns2">
+                  <a href="#"><img src="img/instagram.png" alt="insta" /></a>
+                </li>
+                <li class="sns3">
+                  <a href="#"><img src="img/youtube.png" alt="youtube" /></a>
+                </li>
+                <li class="sns4">
+                  <a href="#"><img src="img/wa.png" alt="advertise" /></a>
+                </li>
+              </ul>
+              <div class="family-site">
+                <select id="family-bank">
+                  <option>JB금융그룹</option>
+                  <option value="6">JB금융지주</option>
+                  <option value="7">광주은행</option>
+                  <option value="3">JB우리캐피탈</option>
+                  <option value="8">JB자산운용</option>
+                  <option value="4">사회공헌</option>
+                  <option value="5">전북은행노동조합</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/JB_Bank.js" defer></script>
+  </body>
+</html>

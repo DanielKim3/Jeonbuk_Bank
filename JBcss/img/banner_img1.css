@@ -1,0 +1,50 @@
+*{margin:0; padding:0}
+
+/* 전체레이아웃 */
+#wrap{width: 100%; height: auto; margin: 0 auto;}
+#header{height: auto; width: 100%}
+#banner{width: 100%; height: 450px; background: #ffdfbf}
+#contents{width: 100%}
+#footer{width: 100%;height: 220px; background: #dddddd; margin-top: 50px;}
+li{list-style: none;}
+a{ color: #000000;  text-decoration: none}
+img{border:none}
+a{border:none}
+
+
+/* header */
+
+.head-top{background: #fff; display: block; width: 980px; margin: 20px auto 24px; overflow: hidden}
+.headTop-left{width: 252px; height: 26px; float: left;}
+.logoBox{float: left; background: url(images/renew-logo.png) no-repeat; width:120px; height: 26px;}
+#btnLogin1{float: left; margin-left: -1px; margin-top: 0px; height: 22px;
+    padding: 0 5px; line-height: 22px; text-align: center; font-size: 13px; color: #585858; font-weight: bold; cursor:pointer}
+#btnCenter{float: left; margin-left: 27px; margin-top: -11px; height: 22px;    padding: 0 5px; line-height: 22px; text-align: center; font-size: 13px; color: #585858; font-weight: bold; cursor:pointer}
+.headTop-right{width: 490px; height: 26px; float: right; }
+.top-link{width: 390px; height: 26px; float: left; overflow: hidden}
+.top-link>li>a{font-weight: bold}    
+ul>li{float:left; position: relative; margin-left: 30px; }
+.buttonSearch{float:left; width: 25px;  height: 25px; display: block; background: url(../img/header_img1.png) ;  }
+.buttonMenu{float: right; width: 32px;  height: 38px; background: url(../img/header_img2.png)  ; overflow: hidden;  display: block;}
+    
+.head_gnb{width: 100%; height: 55px; background: #4cd2ff; line-height: 55px;}
+.head_menu>li>a{color: #ffffff; font-weight: bold}
+.head_menu>li:first-child{margin-right: 28px; margin-left: 15px;}
+.head_menu>li+li{margin: 0 29px;}
+.head_menu>li:last-child{margin: 0 0 0 30px;}
+
+.head_menu{width: 980px; margin: 0 auto; overflow: hidden; }
+
+
+/* banner */
+.main-banner{position: relative; width: 100%; overflow: hidden;}
+.main-slide{height: 450px; width: 100%}
+.main-image{position: relative; width: 1660px; background: url(img/banner_img1.jpg) no-repeat;}
+/* content1 */
+
+/* content2 */
+
+/* content3 */
+
+/* 공통속성 */
+.container{ height: inherit; width: 980px; margin: 0 auto; background: rgba(0,0,0,0.1)}

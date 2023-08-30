@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+   <title>전북은행</title>
+	<link rel="stylesheet" href="css/reset.css"/>
+     <link rel="stylesheet" href="css/project3.css"/>
+</head>
+<body>
+   <div id="wrap">
+      <div id="header">         
+         <div class="head-top">
+            <div class="container">
+            <div class="headTop-left">
+               <a href="#" class="logoBox"></a>
+               <div id="btnLogin1">
+                  <input type="button" value="로그인" id="btnLogin3"/>
+               </div>
+               <div id="btnCenter">
+                  <input type="button" value="인증센터" id="btnCenter2"/>
+               </div>
+            </div>
+            <div class="headTop-right">
+               <ul class="top-link">
+                  <li><a href="#">개인</a></li>
+                  <li><a href="#">기업</a></li>
+                  <li><a href="#">카드</a></li>
+                  <li><a href="#">스마트금융</a></li>
+                  <li><a href="#">금융상품</a></li>            
+               </ul>
+               <a href="#" class="buttonSearch"></a>               
+               <a href="#" class="buttonMenu"></a>
+            </div>
+         </div>
+         </div>
+        
+      </div>   
+      <div id="banner">
+         <div class="main-banner">
+            <img src="img/banner_img1.jpg" alt=""/>
+            <div class="img1">
+				<img src="img/banner_img2.png" alt=""/>
+				<a href="#">자세히 보기</a>
+			</div>
+         </div>
+      </div>      
+      <div id="contents">         
+         <div class="content1">
+            <div class="container">
+               	<ul class="fast-menu">
+					<li id="quick-tab01">
+						<span><img src="img/content1_img1.png" alt=""/></span>
+						<a href="#">전계좌조회</a>
+					</li>
+					<li id="quick-tab02">
+						<span><img src="img/content1_img2.png" alt=""/></span>
+						<a href="#">즉시이체</a>						
+					</li>
+					<li id="quick-tab03">
+						<span><img src="img/content1_img3.png" alt=""/></span>
+						<a href="#">세금/공과금</a>						
+					</li>
+					<li id="quick-tab04">
+						<span><img src="img/content1_img4.png" alt=""/></span>
+						<a href="#">카드등록</a>
+					</li>
+					<li id="quick-tab05">
+						<span><img src="img/content1_img5.png" alt=""/></span>
+						<a href="#">계좌이동서비스</a>
+					</li>
+					<li id="quick-tab06">
+						<span><img src="img/content1_img6.png" alt=""/></span>
+						<a href="#">인증센터</a>
+					</li>
+				</ul>								
+               <div class="box2">
+                 <div class="article-box1">										
+					<ul>
+						<li class="slide-img1">						
+							<div class="new-text1">
+								<span class="icon-event">EVENT</span>
+								<span class="article-text">JB카드와 함께하는<br/>국제 현대미술 전시회</span>
+								<span class="article-text1">JB카드로 제 13회 광주비엔날레 입장권 구매시<br/>20% 즉시할인 혜택 제공</span>
+							</div>									
+						</li>
+					</ul>
+					<ul class="slide-button">
+						<li class="button1"></li>
+						<li class="button2"></li>
+						<li class="button3"></li>
+						<li class="button4"></li>
+						<li class="button5"></li>
+						<li class="button6"></li>
+						<li class="button7"></li>
+						<li class="button8"></li>
+					</ul>
+				  </div>
+                 <div class="article-box2">
+					<ul>
+						<li class="slide-img2">
+							<div class="new-text2">
+								<div>
+									<span class="icon-new">NEW</span>
+								</div>	
+									<span class="article-text2">손쉬운 모임관리, JB모임통장</span>
+									<span class="article-text3">모임서비스와 다양한 우대혜택을<br/>동시에 누리는 모임 전통 통장</span>
+								<a href="#">자세히보기</a>
+							</div>
+						</li>
+					</ul>
+				 </div>
+               </div>
+               <div class="box3">
+                  <div class="article-box3">
+					<span class="finance-product">금융상품</span>
+					<ul>
+						<li class="icon-menu">						
+							<span class="icon-circle1"></span>		
+							<span class="icon-image1"></span>		
+							<span class="icon-text1">예금/신탁</span>	
+						</li>
+						<li class="icon-menu">						
+							<span class="icon-circle2"></span>		
+							<span class="icon-image2"></span>					
+							<span class="icon-text2">대출</span>		
+						</li>
+						<li class="icon-menu">						
+							<span class="icon-circle3"></span>		
+							<span class="icon-image3"></span>					
+							<span class="icon-text3">펀드</span>		
+						</li>
+						<li class="icon-menu">						
+							<span class="icon-circle4"></span>		
+							<span class="icon-image4"></span>					
+							<span class="icon-text4">외환</span>
+						</li>
+					</ul>
+				  </div>
+				  <div class="box-bar"></div>
+                  <div class="article-box4">
+					<span class="quick-service">빠른서비스</span>
+					<div class="tab-bar">
+						<a href="#" id="tb1">예금</a>					
+						<a href="#" id="tb2">카드</a>					
+					</div>
+					<ul class="check-menu">
+						<li><a href="#">이용대금명세서</a></li>
+						<li><a href="#">승인내역조회</a></li>
+						<li><a href="#">매입내역조회</a></li>
+						<li><a href="#">할부내역조회</a></li>
+						<li><a href="#">단기카드대출(현금서비스)</a></li>
+						<li><a href="#">신용카드 소등공제</a></li>
+						<li><a href="#">카드사용&middot;비밀번호등록</a></li>
+						<li><a href="#">JB카드 교체발급</a></li>
+						<li><a href="#">1st선택서비스조회/변경</a></li>
+						<li><a href="#">학생증체크카드신청</a></li>
+					</ul>
+				  </div>
+               </div>   
+            </div>
+         </div>
+         <div class="content2">
+            <div class="container">											
+				<div class="img-slider">
+				<a href="#" class="prev-button"><img src="img/renew-main-arrow-prev.png" alt="좌측깜빡이"/></a>
+				<a href="#" class="next-button"><img src="img/renew-main-arrow-next.png" alt="우측깜빡이"/></a>			
+				<span class="cont2-tit">지금 뜨는 상품을 만나보세요</span>
+					<div class="slide-track">						
+						<div class="full-track">
+							<div class="img-slide">
+								<a href="#"><img src="img/content2.png" alt="통장"/></a>
+								<div class="slide-txt">
+									<span class="slide-tit">JB 마이플랜 통장</span>
+									<span class="slide-cont">설정금액에 따라 하루만 맡겨도<br/>높은 금리를 제공하는 입출금 상품</span>
+								</div>
+							</div>
+							<div class="img-slide">
+								<a href="#"><img src="img/content3.png" alt="적금"/></a>
+								<div class="slide-txt">
+									<span class="slide-tit">JB 마이플랜 적금</span>
+									<span class="slide-cont">매일,매주,매월 수시로 저축하는<br/>소액 재테크 상품</span>
+								</div>
+							</div>			
+							<div class="img-slide">
+								<a href="#"><img src="img/content4.png" alt="대출"/></a>
+								<div class="slide-txt">
+									<span class="slide-tit">JB 따뜻한 신용대출</span>
+									<span class="slide-cont">저신용 고객님을 위한<br/>중금리 신용대출 상품</span>
+								</div>
+							</div>
+							<div class="img-slide">
+								<a href="#"><img src="img/content5.png" alt="예금"/></a>
+								<div class="slide-txt">
+									<span class="slide-tit">JB 주거래 예금</span>
+									<span class="slide-cont">실적에 따라 우대금리를 받는<br/>주거래고객 전용 상품</span>
+								</div>
+							</div>			
+							<div class="img-slide">
+								<a href="#"><img src="img/content6.png" alt="적금"/></a>
+								<div class="slide-txt">
+									<span class="slide-tit">JB주거래적금(월복리형)</span>
+									<span class="slide-cont">이자에 이자를 더하는<br/>월복리 자유적금</span>
+								</div>
+							</div>
+							<div class="img-slide">
+								<a href="#"><img src="img/content6.png" alt="대출"/></a>
+								<div class="slide-txt">
+									<span class="slide-tit">JB 사잇돌 중금리 대출</span>
+									<span class="slide-cont">중신용 고객님을 위한<br/>중금리 대출 상품</span>
+								</div>
+							</div>											
+						</div>					
+					</div>
+				</div>
+			</div>
+		 </div> 
+         <div class="content3">
+            <div class="container">             
+               <div class="box4">
+                  <div class="article-box5">
+					<ul class="icon-list">
+						<li>
+							<a href="#">
+								<span class="big-icon"></span>					
+								<span class="bicon-image"><img src="img/contetn3_img (1).png" alt=""/></span>	
+								<span class="bicon-text">뉴스마트뱅킹<br/>설치</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="big-icon"></span>					
+								<span class="bicon-image"><img src="img/contetn3_img (4).png" alt=""/></span>	
+								<span class="bicon-text">원클릭서류제출<br/>서비스</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="big-icon"></span>					
+								<span class="bicon-image"><img src="img/contetn3_img (2).png" alt=""/></span>	
+								<span class="bicon-text">고객상담</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="big-icon"></span>					
+								<span class="bicon-image"><img src="img/contetn3_img (3).png" alt=""/></span>	
+								<span class="bicon-text">금융소비자보호</span>
+							</a>
+						</li>
+					</ul>
+				  </div>
+				  <div class="box-bar1"></div>
+				  <div class="article-box6">
+					<span class="box6-tit">JB 새소식</span>
+					<span class="box6-more">더보기 &rsaquo;</span>
+					<ul class="box6-txt">
+						<li><a href="#">대신증권 서비스 일시중단 안내</a></li>
+						<li><a href="#">금융인증서비스 일시중단 안내</a></li>
+						<li><a href="#">전자무역업무기본약관 개정 안내</a></li>
+						<li><a href="#">수신상품 약관 개정 안내</a></li>
+					</ul>
+				  </div>
+               </div>
+            </div>
+         </div>       
+		<div id="footer">
+         <div class="contianer">
+			<div class="footer_box">
+				<div class="image-top"></div>
+				<div>
+                  <ul class="link-footer">
+                     <li><a href="#">고객정보취급방침</a></li>
+                     <li><a href="#">개인정보처리방침</a>
+                        <span class="lineBar"></span>
+                     </li>
+                     <li><a href="#">신용정보활용체제</a>
+                        <span class="lineBar"></span>
+                     </li>
+                     <li><a href="#">전자민원접수</a>
+                        <span class="lineBar"></span>
+                     </li>
+                     <li><a href="#">보호금융상품등록부</a>
+                        <span class="lineBar"></span>
+                     </li>
+                     <li><a href="#">상품공시실</a>
+                        <span class="lineBar"></span>
+                     </li>
+                     <li><a href="#">보안센터</a>
+                        <span class="lineBar"></span>
+                     </li>
+                     <li><a href="#">고객센터</a>
+                        <span class="lineBar"></span>
+                     </li>
+                     <li><a href="#">은행센터</a></li>
+                  </ul>
+				</div>
+                  <br/>
+                  <br/>
+                  <span class=>고객센터</span>
+                  <span class="number1">1588-4477</span>
+                  <span>비대면 신용대출</span>
+                  <span class="number2">1522-1704</span>
+                  <span class="capital">COPYRIGHTS JEONBUK BANK, All RIGHTS RESERVED.</span>   
+                  <div>
+					<ul class="sns_link">
+					   <li class="sns1"><a href="#"><img src="img/footer_img_sns (1).png" alt="페북"/></a></li>
+					   <li class="sns2"><a href="#"><img src="img/footer_img_sns (2).png" alt="페북"/></a></li>
+					   <li class="sns3"><a href="#"><img src="img/footer_img_sns (3).png" alt="페북"/></a></li>
+					   <li class="sns4"><a href="#"><img src="img/footer_img_sns (4).png" alt="페북"/></a></li>      
+					</ul>				 
+				   <div class="family-site">
+					<select id="family-bank">
+						<option>JB금융그룹</option>
+						<option value="6">JB금융지주</option>
+						<option value="7">광주은행</option>
+						<option value="3">JB우리캐피탈</option>
+						<option value="8">JB자산운용</option>
+						<option value="4">사회공헌</option>
+						<option value="5">전북은행노동조합</option>
+					</select>
+				   </div>
+				 </div>			  
+            </div>
+		 </div>
+      </div>            
+   </div>
+</div>   
+</body>
+</html>
